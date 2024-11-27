@@ -1,0 +1,214 @@
+<!doctype html>
+<html class="no-js" lang="en">
+
+<head>
+    <!-- Title -->
+    <title>Zulaizah</title>
+
+    <!-- Meta -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/bootsnav.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <style>
+        #welcome-hero {
+            background-image: url('assets/images/about/old.jpg');
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 140vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.7);
+        }
+    </style>
+</head>
+
+
+<body>
+    <!-- Header -->
+    <header class="top-area">
+        <div class="header-area">
+            <nav class="navbar navbar-default bootsnav navbar-fixed dark no-background">
+                <div class="container">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-menu">
+                            <i class="fa fa-bars"></i>
+                        </button>
+                        <a class="navbar-brand" href="#welcome-hero">ZR</a>
+                    </div>
+                    <div class="collapse navbar-collapse menu-ui-design" id="navbar-menu">
+                        <ul class="nav navbar-nav navbar-right" data-in="fadeInDown" data-out="fadeOutUp">
+                            <li class="smooth-menu active"><a href="#welcome-hero">Home</a></li>
+                            <li class="smooth-menu"><a href="#about">About Me</a></li>
+                            <li class="smooth-menu"><a href="#education">Education</a></li>
+                            <li class="smooth-menu"><a href="#experience">Experience</a></li>
+                            <li class="smooth-menu"><a href="#project">Project</a></li>
+                            <li class="smooth-menu"><a href="#contact">Contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Welcome Section -->
+    <section id="welcome-hero" class="welcome-hero">
+        <div class="container text-center">
+            <div class="header-text">
+                <h2>
+                    <span class="typing-animation">Hi, I am Zulaizah Rahayu.</span>
+                </h2>
+                <p style="margin-top: -20px; font-size: 1.5rem;">UI/UX Designer and Web Developer</p>
+        </div>
+    </section>
+    
+    <style>
+        .typing-animation {
+            display: inline-block;
+            overflow: hidden;
+            white-space: nowrap;
+            border-right: 3px solid white; /* Cursor effect */
+            font-size: 5rem; /* Ukuran besar */
+            font-weight: bold;
+            color: rgb(236, 231, 231); /* Warna putih */
+            animation: typing 4s steps(30, end), blink 0.7s step-end infinite, delete 6s steps(30, end) infinite;
+    }
+
+
+    
+    
+        @keyframes typing {
+            from {
+                width: 0;
+            }
+            to {
+                width: 100%;
+            }
+        }
+    
+        @keyframes blink {
+            from {
+                border-color: transparent;
+            }
+            to {
+                border-color: white;
+            }
+        }
+    </style>    
+    </section>
+    
+    
+    <!-- About Me Section -->
+	<section id="about" class="about">
+		<div class="section-heading text-center">
+			<h2>About Me</h2>
+		</div>
+		<div class="container">
+			<div class="row align-items-center">
+				<!-- Teks di sisi kiri -->
+				<div class="col-md-6">
+					<h3>I am a Professional UI/UX Designer and Web Developer.</h3>  
+				</div>
+	
+				<!-- Gambar di sisi kanan -->
+				<div class="col-md-6 text-center">
+					<img src="assets/images/about/WhatsApp Image 2024-11-21 at 08.10.36_d6057ad3.jpg" 
+						 alt="Profile Image" 
+						 class="img-circle" 
+						 style="width: 150px; height: 150px; object-fit: cover; border-radius: 20%; border: 3px solid #ccc;">
+				</div>
+			</div>
+		</div>
+	</section>
+ 	
+    <!-- Education Section -->
+    <section id="education" class="education">
+        <div class="section-heading text-center">
+            <h2>Education</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-6">
+                    <h3>2007 - 2010</h3>
+                    <p>Akademi Sekretari Budi Luhur</p>
+                </div>
+                <div class="col-sm-6">
+                    <h3>2022 - Now</h3>
+                    <p>Universitas Pamulang</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience">
+        <div class="section-heading text-center">
+            <h2>Experience</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <h3>2018 - Present</h3>
+                    <p>Secretary Director</p>
+                    <p>PT. Bukit Makmur Mandiri</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Project Section -->
+    <section id="project" class="project">
+        <div class="section-heading text-center">
+            <h2>Project</h2>
+        </div>
+        <div class="container">
+            <div class="row">
+                <!-- Kolom 1: Form Login -->
+                <div class="col-sm-4">
+                    <a href="login.html" target="_blank" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/portfolio/login.png" alt="Form Login" class="img-responsive" style="width: 100%; border-radius: 8px;">
+                        <h4 style="text-align: center; margin-top: 10px;">Form Login</h4>
+                    </a>
+                </div>
+    
+                <!-- Kolom 2: Kalkulator -->
+                <div class="col-sm-4">
+                    <a href="kalkulator.html" target="_blank" style="text-decoration: none; color: inherit;">
+                        <img src="assets/images/portfolio/kalkulator.png" alt="UI/UX Design" class="img-responsive" style="width: 100%; border-radius: 8px;">
+                        <h4 style="text-align: center; margin-top: 10px;">Kalkulator</h4>
+                    </a>
+                </div>
+    
+                <!-- Kolom 3: Web Design -->
+                <div class="col-sm-4">
+                    <a href="index.html" target="_blank" style="text-decoration: none; color: inherit;">
+                        <img src="D:\kuliah\pemrograman web\browny-v1.0\assets\images\portfolio\p1.png" alt="Web Design" class="img-responsive" style="width: 100%; border-radius: 8px;">
+                        <h4 style="text-align: center; margin-top: 10px;">Web Design</h4>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="section-heading text-center">
+            <h2>Contact Me</h2>
+        </div>
+        <div class="container">
+            <h3>Email</h3>
+            <p><a href="mailto:zr.ayyu@gmail.com">zr.ayyu@gmail.com</a></p>
+            <h3>Website</h3>
+            <p><a href="http://www.solsepatu.com" target="_blank">www.solsepatuu.com</a></p>
+        </div>
+    </section>
+</body>
+
+</html>
